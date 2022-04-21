@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewData["Title"] = "M_FlightList";
+    Layout = "~/Views/Shared/_Mobile.cshtml";
+}
+
+
+
+@using (Html.BeginForm("M_Index", "Flight", FormMethod.Post)) {
+    
+   
+
+     <div style="width:90%;
+                margin:auto;
+                background-color:#F0F0F0;
+                padding-top:20px;
+                padding-bottom:20px;
+                margin-bottom:10px;
+                margin-top:100px; 
+                border-radius:20px">
+
+ <a style="text-decoration:none" href="/B-DCS/Flight/M_Comment"><h4 style="text-align:center">QH88/15Jan/MEL-SYD</h4></a>
+ <div style="display:flex;width:100%;margin-top:10px">
+    <div style="flex:40%;background-color:#F0F0F0;text-align:center">SEQ/Seat/ST</div>
+    <div style="flex:60%;background-color:#F0F0F0;text-align:center">
+        10:00/--
+   </div>
+    </div>
+   
+    <div style="display:flex;width:100%;margin-top:20px">
+    <div style="flex:40%;background-color:#F0F0F0;text-align:center;">PNR/Ticket</div>
+    <div style="flex:60%;background-color:#F0F0F0;text-align:center">
+     B787/VNA1234
+   </div>
+    </div>
+
+
+     <div style="display:flex;width:100%;margin-top:20px">
+    <div style="flex:40%;background-color:#F0F0F0;text-align:center">Class/SSR</div>
+    <div style="flex:60%;background-color:#F0F0F0;text-align:center">
+   10/52A
+   </div>
+    </div>
+
+     <div style="display:flex;width:100%;margin-top:20px">
+    <div style="flex:40%;background-color:#F0F0F0;text-align:center">Remark</div>
+    <div style="flex:60%;background-color:#F0F0F0;text-align:center">
+     10:00/--
+   </div>
+    </div>
+    </div>
+
+
+     <div style="width:90%;
+                margin:auto;
+                background-color:#F0F0F0;
+                padding-top:20px;
+                padding-bottom:20px;
+                margin-bottom:20px;
+                border-radius:20px">
+
+ <a style="text-decoration:none" href="/B-DCS/Flight/M_Passenger"><h4 style="text-align:center">QH88/15Jan/MEL-SYD</h4></a>
+ <div style="display:flex;width:100%;margin-top:10px">
+    <div style="flex:40%;background-color:#F0F0F0;text-align:center">SEQ/Seat/ST</div>
+    <div style="flex:60%;background-color:#F0F0F0;text-align:center">
+        10:00/--
+   </div>
+    </div>
+   
+    <div style="display:flex;width:100%;margin-top:20px">
+    <div style="flex:40%;background-color:#F0F0F0;text-align:center;">PNR/Ticket</div>
+    <div style="flex:60%;background-color:#F0F0F0;text-align:center">
+     B787/VNA1234
+   </div>
+    </div>
+
+
+     <div style="display:flex;width:100%;margin-top:20px">
+    <div style="flex:40%;background-color:#F0F0F0;text-align:center">Class/SSR</div>
+    <div style="flex:60%;background-color:#F0F0F0;text-align:center">
+   10/52A
+   </div>
+    </div>
+
+     <div style="display:flex;width:100%;margin-top:20px">
+    <div style="flex:40%;background-color:#F0F0F0;text-align:center">Remark</div>
+    <div style="flex:60%;background-color:#F0F0F0;text-align:center">
+     10:00/--
+   </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+}
